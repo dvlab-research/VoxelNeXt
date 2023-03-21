@@ -1,4 +1,6 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/voxelnext-fully-sparse-voxelnet-for-3d-object/3d-object-detection-on-argoverse2)](https://paperswithcode.com/sota/3d-object-detection-on-argoverse2?p=voxelnext-fully-sparse-voxelnet-for-3d-object)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/voxelnext-fully-sparse-voxelnet-for-3d-object/3d-multi-object-tracking-on-nuscenes-lidar)](https://paperswithcode.com/sota/3d-multi-object-tracking-on-nuscenes-lidar?p=voxelnext-fully-sparse-voxelnet-for-3d-object)
+
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.11301)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=dvlab-research/VoxelNeXt)
 

@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.11301)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=dvlab-research/VoxelNeXt)
 
 
@@ -7,7 +7,7 @@
 This is the official implementation of ***VoxelNeXt*** (CVPR 2023). VoxelNeXt is a clean, simple, and fully-sparse 3D object detector. The core idea is to predict objects directly upon sparse voxel features. No sparse-to-dense conversion, anchors, or center proxies are needed anymore.
 For more details, please refer to:
 
-**VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking [[Paper]()]** <br />
+**VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking [[Paper](https://arxiv.org/abs/2303.11301)]** <br />
 [Yukang Chen](https://scholar.google.com/citations?user=6p0ygKUAAAAJ&hl=en), [Jianhui Liu](https://scholar.google.com/citations?user=n1JW-jYAAAAJ&hl=en), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=zh-CN), [Xiaojuan Qi](https://scholar.google.com/citations?user=bGn0uacAAAAJ&hl=en), [Jiaya Jia](https://scholar.google.com/citations?user=XPAkzTEAAAAJ&hl=en)<br />
 
 <p align="center"> <img src="docs/VoxelNeXt-Pipeline.png" width="100%"> </p>
@@ -23,13 +23,13 @@ For more details, please refer to:
 |---------------|:----:|:----:|:----:|:-----------:|
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     |  val | 60.0 | 67.1 | [Pre-trained](https://drive.google.com/file/d/1IV7e7G9X-61KXSjMGtQo579pzDNbhwvf/view?usp=share_link) |
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     | test | 64.5 | 70.0 |  [Submission](https://drive.google.com/file/d/1wNVjxyTuCE3F88GT_TZSgBgdmkA61Fsi/view?usp=share_link) |
-| [+double-flip]() | test | 66.2 | 71.4 |  [Submission](https://drive.google.com/file/d/1sSkLBrWGm_rMB73cNHojGyQtz-hLBBTH/view?usp=share_link) |
+| [+double-flip](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_doubleflip.yaml) | test | 66.2 | 71.4 |  [Submission](https://drive.google.com/file/d/1sSkLBrWGm_rMB73cNHojGyQtz-hLBBTH/view?usp=share_link) |
 
 | nuScenes Tracking |  Set |  AMOTA |  AMOTP |   Download  |
 |---------------|:----:|:----:|:----:|:-----------:|
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     | val | 70.2 | 64.0 |  [Results](https://drive.google.com/file/d/1_9maBWKJ3oDdUMBB_ee76Cq34GJoGyBx/view?usp=share_link) |
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     | test | 69.5 | 56.8 |  [Submission](https://drive.google.com/file/d/1gq-vz5ix_aw4IPc0N3To15IS-bLa1b50/view?usp=share_link) |
-| [+double-flip]() | test | 71.0 | 51.1 |  [Submission](https://drive.google.com/file/d/1wg4Iica6WbPp_NrNoXI3-J1-ggQ2_cW3/view?usp=share_link) |
+| [+double-flip](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_doubleflip.yaml) | test | 71.0 | 51.1 |  [Submission](https://drive.google.com/file/d/1wg4Iica6WbPp_NrNoXI3-J1-ggQ2_cW3/view?usp=share_link) |
 
 |  Argoverse2  | Head Kernel | mAP | Download | 
 |---------------------------------------------|:----------:|:-------:|:---------:|
@@ -100,9 +100,9 @@ If you find this project useful in your research, please consider citing:
 -  This work is motivated by [FSD](https://arxiv.org/abs/2207.10035) for the fully sparse direction.
 
 ## Our Works in LiDAR-based 3D Computer Vision
-- **VoxelNeXt (CVPR 2023)** [[Paper]]() [[Code]](https://github.com/dvlab-research/VoxelNeXt) Fully Sparse VoxelNet for 3D Object Detection and Tracking.
+- **VoxelNeXt (CVPR 2023)** [[Paper]](https://arxiv.org/abs/2303.11301) [[Code]](https://github.com/dvlab-research/VoxelNeXt) Fully Sparse VoxelNet for 3D Object Detection and Tracking.
 - **Focal Sparse Conv (CVPR 2022 Oral)** [[Paper]](https://arxiv.org/abs/2204.12463) [[Code]](https://github.com/dvlab-research/FocalsConv) Dynamic sparse convolution for high performance.
-- **Spatial Pruned Conv (NeurIPS 2022)** [[Paper]](https://arxiv.org/abs/2209.14201) [[Code]](https://github.com/CVMI-Lab/SPS-Conv) 50% FLOPs saving for efficient 3D object detection.
+- **Spatial Pruned Conv (NeurIPS 2022)** [[Paper]](https://arxiv.org/abs/2209.14201) [[Code]](https://github.com/CVMI-Lab/SPS-Conv) 50% FLOPs saving for efficient 3D object detection.f
 - **LargeKernel3D (CVPR 2023)** [[Paper]](https://arxiv.org/abs/2206.10555) [[Code]](https://github.com/dvlab-research/LargeKernel3D) Large-kernel 3D sparse CNN backbone.
 - **SphereFormer (CVPR 2023)** Spherical window 3D transformer backbone.
 - [spconv-plus](https://github.com/dvlab-research/spconv-plus) A library where we combine our works into [spconv](https://github.com/traveller59/spconv).

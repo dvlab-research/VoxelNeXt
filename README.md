@@ -20,7 +20,7 @@ For more details, please refer to:
 
 | nuScenes Detection      |  Set |  mAP |  NDS |   Download  |
 |---------------|:----:|:----:|:----:|:-----------:|
-| [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     |  val | 60.0 | 67.1 | [Pre-trained](https://drive.google.com/file/d/1IV7e7G9X-61KXSjMGtQo579pzDNbhwvf/view?usp=share_link) |
+| [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     |  val | 60.5 | 66.6 | [Pre-trained](https://drive.google.com/file/d/1IV7e7G9X-61KXSjMGtQo579pzDNbhwvf/view?usp=share_link) |
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     | test | 64.5 | 70.0 |  [Submission](https://drive.google.com/file/d/1wNVjxyTuCE3F88GT_TZSgBgdmkA61Fsi/view?usp=share_link) |
 | [+double-flip](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_doubleflip.yaml) | test | 66.2 | 71.4 |  [Submission](https://drive.google.com/file/d/1sSkLBrWGm_rMB73cNHojGyQtz-hLBBTH/view?usp=share_link) |
 

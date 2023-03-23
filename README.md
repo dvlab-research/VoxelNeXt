@@ -96,7 +96,7 @@ If you find this project useful in your research, please consider citing:
 
 ## Acknowledgement
 -  This work is built upon the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [spconv](https://github.com/traveller59/spconv). 
--  This work is motivated by [FSD](https://arxiv.org/abs/2207.10035) for the fully sparse direction.
+-  This work is motivated by [FSD](https://arxiv.org/abs/2207.10035) for the fully sparse direction. We follow FSD for the Argoverse2 data processing.
 
 ## Our Works in LiDAR-based 3D Computer Vision
 - **VoxelNeXt (CVPR 2023)** [[Paper]](https://arxiv.org/abs/2303.11301) [[Code]](https://github.com/dvlab-research/VoxelNeXt) Fully Sparse VoxelNet for 3D Object Detection and Tracking.

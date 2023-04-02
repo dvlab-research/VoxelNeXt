@@ -37,8 +37,8 @@ For more details, please refer to:
 
 |    Waymo  | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  
 |---------------------------------------------|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| [VoxelNeXt-2D](config_file) | 77.94/77.47	|69.68/69.25	|80.24/73.47	|72.23/65.88	|73.33/72.20	|70.66/69.56 | 
-| [VoxelNeXt](config_file) | 78.16/77.70	|69.86/69.42	|81.47/76.30	|73.48/68.63	|76.06/74.90	|73.29/72.18 |
+| [VoxelNeXt-2D](tools/cfgs/waymo_models/voxelnext2d_ioubranch.yaml) | 77.94/77.47	|69.68/69.25	|80.24/73.47	|72.23/65.88	|73.33/72.20	|70.66/69.56 | 
+| [VoxelNeXt](tools/cfgs/waymo_models/voxelnext_ioubranch.yaml) | 78.16/77.70	|69.86/69.42	|81.47/76.30	|73.48/68.63	|76.06/74.90	|73.29/72.18 |
 
 - We cannot release the pre-trained models of VoxelNeXt on Waymo dataset due to the [license of WOD](https://waymo.com/open/terms).
 - During inference, VoxelNeXt can work either with [sparse-max-pooling](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_maxpool.yaml) or NMS post-processing. Please install our implemented [spconv-plus](https://github.com/dvlab-research/spconv-plus), if you want to use the sparse-max-pooling inference. Otherwise, please use NMS post-processing by default.

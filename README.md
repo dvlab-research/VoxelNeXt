@@ -58,7 +58,7 @@ Following the install documents for [OpenPCDet](OpenPCDet/docs/INSTALL.md).
 
 #### c. Prepare the datasets. 
 
-For nuScenes and Waymo datasets, please follow the [document](OpenPCDet/docs/GETTING_STARTED.md) in OpenPCDet.
+For nuScenes and Waymo datasets, please follow the [document](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) in OpenPCDet.
 
 For Argoverse2 dataset, please follow the steps in the [instruction](argoverse2/Argoverse2.md).
 

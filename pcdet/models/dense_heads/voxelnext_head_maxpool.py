@@ -67,7 +67,9 @@ class VoxelNeXtHeadMaxPool(nn.Module):
         self.gaussian_type = self.model_cfg.get('GAUSSIAN_TYPE', ['nearst', 'gt_center'])
         # The iou branch is only used for Waymo dataset
         self.iou_branch = self.model_cfg.get('IOU_BRANCH', False)
-
+        if self.iou_branch:
+            self.rectifier = self.model_cfg.get('RECTIFIER', [0.68, 0.71, 0.65])
+            
         for cur_class_names in self.model_cfg.CLASS_NAMES_EACH_HEAD:
             self.class_names_each_head.append([x for x in cur_class_names if x in class_names])
             cur_class_id_mapping = torch.from_numpy(np.array(
@@ -397,6 +399,8 @@ class VoxelNeXtHeadMaxPool(nn.Module):
 
             selected = torch.zeros(scores.shape[0], device=scores.device)
             for cls in range(self.num_class):
+                if mask_cls.sum() == 0:
+                    continue
                 mask_cls = class_ids == cls
                 scores_cls = torch.pow(scores[mask_cls], 1 - self.rectifier[cls]) * torch.pow(iou_preds[mask_cls].squeeze(-1), self.rectifier[cls])
                 scores[mask_cls] = scores_cls

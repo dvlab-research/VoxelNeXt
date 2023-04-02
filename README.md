@@ -54,7 +54,7 @@ https://github.com/dvlab-research/VoxelNeXt && cd VoxelNeXt
 ```
 #### b. Install the environment
 
-Following the install documents for [OpenPCDet](OpenPCDet/docs/INSTALL.md).
+Following the install documents for [OpenPCDet](docs/INSTALL.md).
 
 #### c. Prepare the datasets. 
 

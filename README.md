@@ -12,6 +12,7 @@ For more details, please refer to:
 <p align="center"> <img src="docs/VoxelNeXt-Pipeline.png" width="100%"> </p>
 
 ## News
+- [2023-04-03] VoxelNeXt is merged into the official [OPenPCDet](https://github.com/open-mmlab/OpenPCDet) codebase.
 - [2023-01-28] VoxelNeXt achieved the SOTA performance on the Argoverse2 3D object detection.
 - [2022-11-11] VoxelNeXt achieved 1st on the nuScenes LiDAR tracking leaderboard. 
 

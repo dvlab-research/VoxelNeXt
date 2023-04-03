@@ -34,14 +34,15 @@ For more details, please refer to:
 |  Argoverse2  | Head Kernel | mAP | Download | 
 |---------------------------------------------|:----------:|:-------:|:---------:|
 | [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext.yaml) | 1x1x1 | 30.0 | [Pre-trained](https://drive.google.com/file/d/1zr-it1ERJzLQ3a3hP060z_EQqS_RkNaC/view?usp=share_link) | 
-| [VoxelNeXt-K3](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext_headkernel3.yaml) | 3x3x3	| 30.7 | [Pre-trained](https://drive.google.com/file/d/1NrYRsiKbuWyL8jE4SY27IHpFMY9K0o__/view?usp=share_link) | 
+| [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext_headkernel3.yaml) | 3x3x3	| 30.7 | [Pre-trained](https://drive.google.com/file/d/1NrYRsiKbuWyL8jE4SY27IHpFMY9K0o__/view?usp=share_link) | 
 
 |    Waymo  | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  
 |---------------------------------------------|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | [VoxelNeXt-2D](tools/cfgs/waymo_models/voxelnext2d_ioubranch.yaml) | 77.94/77.47	|69.68/69.25	|80.24/73.47	|72.23/65.88	|73.33/72.20	|70.66/69.56 | 
-| [VoxelNeXt](tools/cfgs/waymo_models/voxelnext_ioubranch.yaml) | 78.16/77.70	|69.86/69.42	|81.47/76.30	|73.48/68.63	|76.06/74.90	|73.29/72.18 |
+| [VoxelNeXt-K3](tools/cfgs/waymo_models/voxelnext_ioubranch_large.yaml) | 78.16/77.70	|69.86/69.42	|81.47/76.30	|73.48/68.63	|76.06/74.90	|73.29/72.18 |
 
 - We cannot release the pre-trained models of VoxelNeXt on Waymo dataset due to the [license of WOD](https://waymo.com/open/terms).
+- VoxelNeXt-K3 is an enhanced version of VoxelNeXt with larger model size.
 - During inference, VoxelNeXt can work either with [sparse-max-pooling](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_maxpool.yaml) or NMS post-processing. Please install our implemented [spconv-plus](https://github.com/dvlab-research/spconv-plus), if you want to use the sparse-max-pooling inference. Otherwise, please use NMS post-processing by default.
 
 <p align="center"> <img src="docs/sequence-v2.gif" width="100%"> </p>

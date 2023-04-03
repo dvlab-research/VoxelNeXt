@@ -42,7 +42,7 @@ For more details, please refer to:
 | [VoxelNeXt-K3](tools/cfgs/waymo_models/voxelnext_ioubranch_large.yaml) | 78.16/77.70	|69.86/69.42	|81.47/76.30	|73.48/68.63	|76.06/74.90	|73.29/72.18 |
 
 - We cannot release the pre-trained models of VoxelNeXt on Waymo dataset due to the [license of WOD](https://waymo.com/open/terms).
-- VoxelNeXt-K3 is an enhanced version of VoxelNeXt with larger model size.
+- For Waymo dataset, VoxelNeXt-K3 is an enhanced version of VoxelNeXt with larger model size.
 - During inference, VoxelNeXt can work either with [sparse-max-pooling](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_maxpool.yaml) or NMS post-processing. Please install our implemented [spconv-plus](https://github.com/dvlab-research/spconv-plus), if you want to use the sparse-max-pooling inference. Otherwise, please use NMS post-processing by default.
 
 <p align="center"> <img src="docs/sequence-v2.gif" width="100%"> </p>

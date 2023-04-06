@@ -100,7 +100,7 @@ If you find this project useful in your research, please consider citing:
 -  This work is built upon the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [spconv](https://github.com/traveller59/spconv). 
 -  This work is motivated by [FSD](https://arxiv.org/abs/2207.10035). And we follow FSD for the Argoverse2 data processing.
 
-## Our Works in LiDAR-based 3D Computer Vision
+## Our Works in LiDAR-based Autonumous Driving
 - **VoxelNeXt (CVPR 2023)** [[Paper]](https://arxiv.org/abs/2303.11301) [[Code]](https://github.com/dvlab-research/VoxelNeXt) Fully Sparse VoxelNet for 3D Object Detection and Tracking.
 - **Focal Sparse Conv (CVPR 2022 Oral)** [[Paper]](https://arxiv.org/abs/2204.12463) [[Code]](https://github.com/dvlab-research/FocalsConv) Dynamic sparse convolution for high performance.
 - **Spatial Pruned Conv (NeurIPS 2022)** [[Paper]](https://arxiv.org/abs/2209.14201) [[Code]](https://github.com/CVMI-Lab/SPS-Conv) 50% FLOPs saving for efficient 3D object detection.

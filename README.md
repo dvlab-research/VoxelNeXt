@@ -16,7 +16,7 @@ For more details, please refer to:
 - [2023-01-28] VoxelNeXt achieved the SOTA performance on the Argoverse2 3D object detection.
 - [2022-11-11] VoxelNeXt achieved 1st on the nuScenes LiDAR tracking leaderboard. 
 
-** It is all right to train on spconv 2.2 or 2.3**
+**It is all right to train on spconv 2.2 or 2.3**
 ~Note that it seems that there are some bugs for training for spconv 2.2/2.3 version. We are trying to fix it. Before we finish this, please use spconv in 2.1, e.g., spconv==2.1.25 for training!~
 ### Experimental results
 

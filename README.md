@@ -35,7 +35,7 @@ For more details, please refer to:
 | [+double-flip](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_doubleflip.yaml) | test | 71.0 | 51.1 |  [Submission](https://drive.google.com/file/d/1wg4Iica6WbPp_NrNoXI3-J1-ggQ2_cW3/view?usp=share_link) |
 
 |  Argoverse2  |  mAP | Download | 
-|---------------------------------------------|:----------:|:-------:|:---------:|
+|---------------------------------------------|:----------:|:-------:|
 | [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext.yaml) | 30.5 | [Pre-trained](https://drive.google.com/file/d/1YP2UOz-yO-cWfYQkIqILEu6bodvCBVrR/view?usp=share_link) | 
 
 |    Waymo  | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  

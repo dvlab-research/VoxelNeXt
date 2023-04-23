@@ -33,10 +33,9 @@ For more details, please refer to:
 | [VoxelNeXt](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml)     | test | 69.5 | 56.8 |  [Submission](https://drive.google.com/file/d/1gq-vz5ix_aw4IPc0N3To15IS-bLa1b50/view?usp=share_link) |
 | [+double-flip](tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_doubleflip.yaml) | test | 71.0 | 51.1 |  [Submission](https://drive.google.com/file/d/1wg4Iica6WbPp_NrNoXI3-J1-ggQ2_cW3/view?usp=share_link) |
 
-|  Argoverse2  | Head Kernel | mAP | Download | 
+|  Argoverse2  |  mAP | Download | 
 |---------------------------------------------|:----------:|:-------:|:---------:|
-| [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext.yaml) | 1x1x1 | 30.0 | [Pre-trained](https://drive.google.com/file/d/1zr-it1ERJzLQ3a3hP060z_EQqS_RkNaC/view?usp=share_link) | 
-| [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext_headkernel3.yaml) | 3x3x3	| 30.7 | [Pre-trained](https://drive.google.com/file/d/1NrYRsiKbuWyL8jE4SY27IHpFMY9K0o__/view?usp=share_link) | 
+| [VoxelNeXt](tools/cfgs/argo2_models/cbgs_voxel01_voxelnext.yaml) | 30.5 | [Pre-trained](https://drive.google.com/file/d/1YP2UOz-yO-cWfYQkIqILEu6bodvCBVrR/view?usp=share_link) | 
 
 |    Waymo  | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  
 |---------------------------------------------|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -62,9 +61,7 @@ Following the install documents for [OpenPCDet](docs/INSTALL.md).
 
 #### c. Prepare the datasets. 
 
-For nuScenes and Waymo datasets, please follow the [document](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) in OpenPCDet.
-
-For Argoverse2 dataset, please follow the steps in the [instruction](argoverse2/Argoverse2.md).
+For nuScenes, Waymo, and Argoverse2 datasets, please follow the [document](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) in OpenPCDet.
 
 ### Evaluation
 We provide the trained weight file so you can just run with that. You can also use the model you trained.

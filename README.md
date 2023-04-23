@@ -12,6 +12,7 @@ For more details, please refer to:
 <p align="center"> <img src="docs/VoxelNeXt-Pipeline.png" width="100%"> </p>
 
 ## News
+- [2023-04-23] We update the [Argoverse2 dataset code](https://github.com/dvlab-research/VoxelNeXt/blob/master/pcdet/datasets/argo2/argo2_dataset.py). For Argoverse2, [document](https://github.com/dvlab-research/VoxelNeXt/blob/master/docs/GETTING_STARTED.md#argoverse2-dataset) and the [pre-train weight](https://drive.google.com/file/d/1YP2UOz-yO-cWfYQkIqILEu6bodvCBVrR/view?usp=share_link) are updated.
 - [2023-04-19] We merged VoxelNeXt into [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything).
 - [2023-04-16] We released an [example config file](https://github.com/dvlab-research/VoxelNeXt/blob/master/tools/cfgs/kitti_models/voxelnext.yaml) to train VoxelNeXt on KITTI.
 - [2023-04-14] We combine VoxelNeXt and [Segment Anything](https://github.com/facebookresearch/segment-anything) in [3D-Box-Segment-Anything](https://github.com/dvlab-research/3D-Box-Segment-Anything). It extends [Segment Anything](https://github.com/facebookresearch/segment-anything) to 3D perception and enables promptable 3D object detection.

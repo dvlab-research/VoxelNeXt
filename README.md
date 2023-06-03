@@ -9,9 +9,6 @@ For more details, please refer to:
 **VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking [[Paper](https://arxiv.org/abs/2303.11301)]** <br />
 [Yukang Chen](https://scholar.google.com/citations?user=6p0ygKUAAAAJ&hl=en), [Jianhui Liu](https://scholar.google.com/citations?user=n1JW-jYAAAAJ&hl=en), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=zh-CN), [Xiaojuan Qi](https://scholar.google.com/citations?user=bGn0uacAAAAJ&hl=en), [Jiaya Jia](https://scholar.google.com/citations?user=XPAkzTEAAAAJ&hl=en)<br />
 
-An introduction video on YouTube can be found here.
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/sXw71BCGWEo/0.jpg)]([VoxelNeXt](https://www.youtube.com/watch?v=sXw71BCGWEo) "VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking (CVPR 2023)")
-
 <p align="center"> <img src="docs/VoxelNeXt-Pipeline.png" width="100%"> </p>
 
 ## News
@@ -98,6 +95,9 @@ If you find this project useful in your research, please consider citing:
 }
 
 ```
+
+An introduction video on YouTube can be found here.
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/sXw71BCGWEo/0.jpg)]([VoxelNeXt](https://www.youtube.com/watch?v=sXw71BCGWEo) "VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking (CVPR 2023)")
 
 ## Acknowledgement
 -  This work is built upon the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and [spconv](https://github.com/traveller59/spconv). 
